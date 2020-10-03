@@ -1,0 +1,118 @@
+body {
+    background: linear-gradient(to right, rgba(244, 164, 96, 0.3), rgba(255, 255, 255, 0)), url("img/geometric-leaves.png");
+    font-family: 'Courier Prime', monospace;
+}
+
+.bg-plant {
+    background-image: url(img/geometric-leaves.png);
+    
+}
+
+.font-beatrice {
+    font-family: 'Alex Brush', cursive;
+    font-size: 80px !important;
+    margin-left: -100px;
+    margin-bottom: 3px;
+    color: sandybrown;
+}
+
+.bg-sandy {
+    background-color: sandybrown;
+}
+
+.font-small {
+    font-size: 13px;
+}
+.cv-photo {
+    width: 500px;
+    object-fit: cover;
+    filter: grayscale(100%);
+
+}
+
+.bg-white-trans {
+    background-color: rgba(255, 245, 238, 0.5);
+}
+
+.btn-sandy {
+    background-color: sandybrown;
+    color: black;
+    padding: 15px 20px;
+    border: solid 0.5px rgba(0, 0, 0, 0.07)
+}
+.btn-sandy:focus{
+    box-shadow: none;
+}
+
+.my-card {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: none;
+}
+
+.leaf-png {
+    width: 30vw;
+    transform: rotate(240deg);
+    right: -50px;
+    top:-40vw;
+    z-index: -1;
+    opacity: 50%;
+}
+
+.autumn-leaves-png {
+    transform: rotate(90deg);
+    width: 600px;
+    bottom: -10vw;
+    right: -10vw;
+    opacity: 50%;
+    z-index: -1;
+}
+
+/* bottone social */
+.btn-social {
+    padding: 10px 60px;
+    background: url(img/geometric-leaves.png);
+}
+.btn-social:focus {
+    box-shadow: none;
+}
+.social-icon {
+    display: none;
+}
+.btn-social span {
+    display: inline;
+}
+.btn-social:hover {
+    background: transparent;
+    padding: 10px 10px;
+
+}
+.btn-social:hover span {
+    display: none;
+}
+.btn-social:hover .social-icon {
+    display: inline;
+    font-size: 17px;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.234);
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    
+}
+.btn-social:hover .social-icon:hover {
+    background-color: rgb(255, 255, 255);
+}
+a {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 576px) {
+    .cv-photo {
+        object-fit: cover;
+        height: 250px;
+        filter: grayscale(100%);
+    }
+}
